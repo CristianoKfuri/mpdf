@@ -25,6 +25,7 @@ trait FpdiTrait
 		writePdfType as fpdiWritePdfType;
 		useImportedPage as fpdiUseImportedPage;
 		importPage as fpdiImportPage;
+		cleanUp as fpdiCleanUp;
 	}
 
 	protected $k = Mpdf::SCALE;

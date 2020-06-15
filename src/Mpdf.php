@@ -1547,6 +1547,8 @@ class Mpdf implements \Psr\Log\LoggerAwareInterface
 	{
 		mb_internal_encoding($this->originalMbEnc);
 		@mb_regex_encoding($this->originalMbRegexEnc);
+
+		$this->fpdiCleanUp();
 	}
 
 	/**
